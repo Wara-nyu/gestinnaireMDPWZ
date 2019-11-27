@@ -2,7 +2,6 @@
 
 start = input("recherche/entrer : ")
 
-<<<<<<< HEAD
 if start == entrer :
     URL = input("entrez le site web : ")
     Id = input("entrez votre identifiant : ")
@@ -19,21 +18,3 @@ elif start == recherche :
                 print(ligne)
 else 
     print("error")
-=======
-with open('persons.csv', 'w') as csvfile:
-
-
-    filewriter = csv.writer(csvfile, delimiter=',',
-                           quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    filewriter.writerow(["URL", "Identifiant", "Mot de pass"])
-    filewriter.writerow(["Amazon.com", "Florian", "Florianestfou"])
-    filewriter.writerow(["facebook.com", "Flo", "jaimelaguitare" ])
-    filewriter.writerow(["instagram", "Fl0R1an", "nem"])
-
-with open('persons.csv', 'r') as csvfile: 
-    reader = csvfile.read()
-    print(reader)
-
-
-   
->>>>>>> 543e840f7a6f2f6d4519828dfb15d6df65c3f4f5
