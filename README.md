@@ -9,9 +9,9 @@ Le gestionnaire de mot de passe intégre un seul et unique mot de passe qui donn
 
 ## To do
 
- - Utiliser le format CSV pour notre base de donnée
+X - Utiliser le format CSV pour notre base de donnée
  -`wz amazon.com` cette commande pour rechercher l'identifiant et le  mot de passe associé au site
- - Lister tous les sites présent dans la base de donnée
+x - Lister tous les sites présent dans la base de donnée
  - Créer un mot de principal qui fait acceder aux informations de la base de donnée
  - Ajouter de nouvelles informations 
  - Pouvoir modifier les mots de passe
@@ -20,4 +20,5 @@ Le gestionnaire de mot de passe intégre un seul et unique mot de passe qui donn
  - Prévoir d'autres utilsateurs
  - URL non chiffré, ID et MDP chiffré
  - Mot de passe  apres la commande WZ
- - Crypter dans le fichier CSV  
+ - Crypter dans le fichier CSV 
+ -Faire apparaître une rangée 
