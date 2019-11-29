@@ -2,6 +2,7 @@
 
 start = input("Recherche/Entrer : ")
 start = start.capitalize()
+
 if start == "Entrer" :
     URL = input("entrez le site web : ")
     Id = input("entrez votre identifiant : ")
@@ -12,6 +13,7 @@ if start == "Entrer" :
 
 elif start == "Recherche" :
     liste = input("nom du site : ")
+    liste = liste.capitalize()
     with open("personal", "r") as fichier:
         for ligne in fichier:
             if liste in ligne :
